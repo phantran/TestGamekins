@@ -18,14 +18,14 @@ public class HeheTest {
     @Test
     public void test_hihi1() {
         Hihi a = new Hihi(10);
-        a.addRiders(3);
+        a.addRiders(5);
         a.getTopFloor();
         assertEquals(1, 1);
     }
 
     @Test
     public void test_hihi3() {
-        Hihi a = new Hihi(10);
+        Hihi a = new Hihi(13);
         a.addRiders(3);
         a.getTopFloor();
         assertEquals(1, 1);

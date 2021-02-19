@@ -17,7 +17,7 @@ public class AnstrengendTest {
 
     @Test
     public void whenSomething_thenSomething() {
-        assertTrue(true);
+        assertTrue(false);
     }
 
     @Test
