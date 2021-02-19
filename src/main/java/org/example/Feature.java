@@ -23,7 +23,6 @@ public class Feature {
         this.value = intValue + value2;
     }
 
-
     public static void foo2(double d) {
         double x = d;
         int y = 3;

@@ -30,7 +30,7 @@ public class Hihi {
     }
 
     public int getNumRiders() {
-        int a = 1;
+        int a = 1 + 2;
         return numRiders;
     }
 
@@ -70,6 +70,7 @@ public class Hihi {
     public void haha() {
         if (true) {
             int b = 2;
+            int f = 100;
         }
     }
 
@@ -78,6 +79,7 @@ public class Hihi {
         boolean a = true;
         if (a == false) {
             int b = 2;
+            double d = 23;
         }
     }
 }
