@@ -20,6 +20,7 @@ public class Main {
 
     public void haha1() {
         boolean a = true;
+        int c = 2;
         if (a == false) {
             int b = 2;
         }

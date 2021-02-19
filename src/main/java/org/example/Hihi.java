@@ -30,6 +30,7 @@ public class Hihi {
     }
 
     public int getNumRiders() {
+        int a = 1;
         return numRiders;
     }
 
