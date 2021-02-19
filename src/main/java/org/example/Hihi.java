@@ -42,6 +42,7 @@ public class Hihi {
         if (numRiders + numEntering <= capacity) {
             numRiders = numRiders + numEntering;
         } else {
+            System.out.println("ahaha");
             numRiders = capacity;
         }
     }
