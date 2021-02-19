@@ -41,7 +41,7 @@ public class Feature {
 
     public Integer foo(Integer counter) {
         Integer c = 0;
-        while (counter != null && counter <= 4) {
+        while (counter != null && counter <= 41) {
             c++;
             counter++;
         }
