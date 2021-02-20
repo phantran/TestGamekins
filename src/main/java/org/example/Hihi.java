@@ -21,7 +21,7 @@ public class Hihi {
     }
 
     public int getCurrentFloor() {
-        int a = 5 + 62;
+        int a = 5 + 632;
         return currentFloor;
     }
 
@@ -30,7 +30,7 @@ public class Hihi {
     }
 
     public int getNumRiders() {
-        int a = 5 + 2;
+        int a = 5 + 22;
         return numRiders;
     }
 
@@ -49,7 +49,7 @@ public class Hihi {
 
     public void goUp() {
         if (currentFloor < topFloor)
-            currentFloor++;
+            currentFloor--;
     }
 
     public void goDown() {

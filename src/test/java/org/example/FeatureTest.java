@@ -8,10 +8,10 @@ public class FeatureTest {
 
     @Test
     public void test_hihi() {
-        Feature a = new Feature(5, 123);
+        Feature a = new Feature(25, 123);
         a.doNothing();
         a.foo(5);
-        System.out.println("asdasaaaa");
+        System.out.println("asdaasdsaaaa");
         assertEquals(1, 1);
     }
 
