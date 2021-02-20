@@ -15,7 +15,7 @@ public class SimpleExampleTest {
 
     @Test
     public void test_hihi1() {
-        Hihi a = new Hihi(10);
+        Hihi a = new Hihi(20);
         a.addRiders(3);
         a.getTopFloor();
         assertEquals(1, 1);

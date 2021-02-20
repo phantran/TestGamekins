@@ -12,7 +12,7 @@ public class Main {
 
         int c = 5;
         c = c - 1;
-        if (c == 10) {
+        if (c == 20) {
             c = 5;
         }
     }
