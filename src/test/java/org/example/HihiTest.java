@@ -23,7 +23,7 @@ public class HihiTest {
 
     @Test
     public void test_hihi2() {
-        Hihi a = new Hihi(10);
+        Hihi a = new Hihi(10123);
         a.call(5);
     }
 }

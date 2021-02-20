@@ -31,9 +31,9 @@ public class Feature {
 
     public String doStuff(String s, Integer i, Boolean b, Double d, Float f, Short r) {
         if (value != null && value > 0) {
-            return "dings" + i + b + d + f + r;
+            return "dasdings" + i + b + d + f + r;
         } else if (publicValue != null && publicValue < 625) {
-            return "blub";
+            return "blasdub";
         } else {
             return null;
         }
