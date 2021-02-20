@@ -14,7 +14,7 @@ public class SimpleExample {
 
     public void doFoo(Integer x, String s, double d, boolean b) {
         if (x != null) {
-            double dd = x + d;
+            double dd = x + d + 4;
         }
     }
 
