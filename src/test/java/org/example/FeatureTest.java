@@ -11,7 +11,7 @@ public class FeatureTest {
         Feature a = new Feature(5, 6);
         a.doNothing();
         a.foo(5);
-        System.out.println("aaaa");
+        System.out.println("asdasaaaa");
         assertEquals(1, 1);
     }
 
