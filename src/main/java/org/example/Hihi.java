@@ -60,7 +60,7 @@ public class Hihi {
     public void call(int floor) {
         if (floor >= 0 && floor <= topFloor) {
             while (floor != currentFloor) {
-                if (floor > currentFloor)
+                if (floor >= currentFloor)
                     goUp();
                 else
                     goDown();
@@ -71,7 +71,7 @@ public class Hihi {
     public void haha() {
         if (true) {
             int b = 2;
-            int f = 100;
+            int f = 1020;
         }
     }
 

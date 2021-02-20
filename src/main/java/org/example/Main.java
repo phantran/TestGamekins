@@ -22,7 +22,7 @@ public class Main {
         boolean a = true;
         int c = 2;
         if (a == false) {
-            int b = 2;
+            int b = 5;
         }
     }
 }
