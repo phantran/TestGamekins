@@ -19,7 +19,7 @@ public class SimpleExample {
     }
 
     public int simple(int x) {
-        if (x < 3) {
+        if (x < 5) {
             return 1;
         }
         return 0;
@@ -27,6 +27,6 @@ public class SimpleExample {
 
     @Override
     public String toString() {
-        return "SimpleExample";
+        return "SimpleExasdfasdfmple";
     }
 }

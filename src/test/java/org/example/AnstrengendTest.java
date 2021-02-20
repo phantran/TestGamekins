@@ -17,11 +17,16 @@ public class AnstrengendTest {
 
     @Test
     public void whenSomething_thenSomething() {
-        assertTrue(false);
+        assertTrue(true);
     }
 
     @Test
     public void whenSomethingElse_thenSomethingElse() {
+        assertTrue(false);
+    }
+
+    @Test
+    public void whenSomethingElse_thenSomeasdthingElse() {
         assertTrue(true);
     }
 }
