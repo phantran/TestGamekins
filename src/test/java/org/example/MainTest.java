@@ -10,4 +10,9 @@ public class MainTest {
     public void testing() {
         assertEquals(1, 1);
     }
+    @Test
+    public void testing1() {
+        Main abc = new Main();
+        abc.haha();
+    }
 }
