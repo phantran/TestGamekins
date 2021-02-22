@@ -10,6 +10,7 @@ public class SimpleExampleTest {
     public void test_hihi() {
         SimpleExample a = new SimpleExample(1);
         a.doStuff(1, 2.0);
+        String abc = a.toString();
         assertEquals(1, 1);
     }
 
