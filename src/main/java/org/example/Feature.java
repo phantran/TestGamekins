@@ -25,7 +25,7 @@ public class Feature {
 
     public static void foo2(double d) {
         double x = d;
-        int y = 123;
+        int y = 123123;
         double z = x + y;
     }
 
