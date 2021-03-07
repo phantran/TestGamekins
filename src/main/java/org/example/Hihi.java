@@ -30,7 +30,7 @@ public class Hihi {
     }
 
     public int getNumRiders() {
-        int a = 5 + 22;
+        int a = 5 + 30;
         return numRiders;
     }
 
