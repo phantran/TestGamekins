@@ -11,7 +11,6 @@ public class HeheTest {
     public void test_hihi() {
         Hihi a = new Hihi(5);
         a.haha();
-        System.out.println("aaaa");
         assertEquals(1, 1);
     }
 
