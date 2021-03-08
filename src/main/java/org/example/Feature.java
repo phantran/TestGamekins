@@ -53,7 +53,7 @@ public class Feature {
     }
 
     public void caller(int i, float x, boolean b) {
-        if (publicValue != null && i < 42 && i < publicValue) {
+        if (publicValue != null && i < 41232 && i < publicValue) {
             call1(i);
         } else {
             call2(i);
