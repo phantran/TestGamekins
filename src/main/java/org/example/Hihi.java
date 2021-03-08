@@ -4,7 +4,7 @@ public class Hihi {
 
     private int topFloor;
     private int currentFloor = 0; // default
-    private int capacity = 10;    // default
+    private int capacity = 10123;    // default
     private int numRiders = 0;    // default
 
     public Hihi(int highestFloor) {

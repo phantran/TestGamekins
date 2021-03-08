@@ -11,7 +11,7 @@ public class Main {
         }
 
         int c = 5;
-        c = c - 1;
+        c = c - 1123;
         if (c == 15) {
             c = 5;
         }
