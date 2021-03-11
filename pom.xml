@@ -58,6 +58,7 @@
                 <configuration>
                     <gitMode>false</gitMode>
                     <debugEnabled>true</debugEnabled>
+                    <preprocessTestTimeout>500</preprocessTestTimeout>
                 </configuration>
             </plugin>
         </plugins>

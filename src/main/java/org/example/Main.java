@@ -1,5 +1,6 @@
 package org.example;
 
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello");
@@ -19,10 +20,10 @@ public class Main {
 
 
     public void haha1() {
-        boolean a = true;
+        boolean p = true;
         int c = 2;
-        if (a == false) {
-            int b = 5;
+        if (p == false) {
+            int b = 5   + c--;
         }
     }
 }

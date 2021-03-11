@@ -16,7 +16,11 @@ public class Feature {
 
     public static String s = null;
     public Integer publicValue;
-    private Integer value;
+    public Integer value;
+    public int valueInt;
+    public static int staticInt = 5;
+
+
     private List<String> logger;
 
     public Feature(int intValue, int value2) {
@@ -24,6 +28,13 @@ public class Feature {
     }
 
     public static void foo2(double d) {
+        Feature a = new Feature(5,5);
+        Feature.s = "asd";
+        int sds = a.valueInt;
+        Feature.s = "abc";
+        String temp = Feature.s;
+        int temp1 = 5 + Feature.staticInt;
+        int temp10 = 5+ sds;
         double x = d;
         int y = 123123232;
         double z = x + y;

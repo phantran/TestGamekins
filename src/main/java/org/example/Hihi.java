@@ -17,6 +17,12 @@ public class Hihi {
     }
 
     public int getTopFloor() {
+        Feature a = new Feature(5,5);
+        Feature.s = "asd";
+        int sds = a.valueInt;
+        Feature.s = "abc";
+        String temp = Feature.s;
+        int temp1 = Feature.staticInt;
         return topFloor;
     }
 
@@ -31,6 +37,8 @@ public class Hihi {
 
     public int getNumRiders() {
         int a = 523232 + 30;
+        a *= 5;
+        a %= 8;
         return numRiders;
     }
 
