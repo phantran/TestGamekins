@@ -21,7 +21,7 @@ public class Main {
 
     public void haha1() {
         boolean p = true;
-        int c = 3;
+        int c = 4;
         if (p == false) {
             int b = 5   + c--;
         }
