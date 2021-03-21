@@ -16,7 +16,7 @@ public class FeatureTest {
 
     @Test
     public void test_hihi1() {
-        Hihi a = new Hihi(16);
+        Hihi a = new Hihi(136);
         a.addRiders(100);
         a.getTopFloor();
         assertEquals(1, 1);

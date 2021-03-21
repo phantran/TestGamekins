@@ -16,15 +16,15 @@ public class HeheTest {
 
     @Test
     public void test_hihi1() {
-        Hihi a = new Hihi(23);
-        a.addRiders(5);
+        Hihi a = new Hihi(233);
+        a.addRiders(53);
         a.getTopFloor();
         assertEquals(1, 1);
     }
 
     @Test
     public void test_hihi3() {
-        Hihi a = new Hihi(1213);
+        Hihi a = new Hihi(12133);
         a.addRiders(36);
         a.getTopFloor();
         assertEquals(1, 1);
