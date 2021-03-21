@@ -33,10 +33,10 @@ public class Feature {
         int sds = a.valueInt;
         Feature.s = "abc";
         String temp = Feature.s;
-        int temp1 = 52 + Feature.staticInt;
-        int temp10 = 53+ sds;
+        int temp1 = 522 + Feature.staticInt;
+        int temp10 = 523+ sds;
         double x = d;
-        int y = 1231223232;
+        int y = 1232232;
         double z = x + y;
     }
 
