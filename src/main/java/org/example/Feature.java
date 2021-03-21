@@ -28,7 +28,7 @@ public class Feature {
     }
 
     public static void foo2(double d) {
-        Feature a = new Feature(5,5);
+        Feature a = new Feature(52,5);
         Feature.s = "asd";
         int sds = a.valueInt;
         Feature.s = "abc";
