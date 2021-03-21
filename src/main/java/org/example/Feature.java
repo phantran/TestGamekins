@@ -34,7 +34,7 @@ public class Feature {
         Feature.s = "abc";
         String temp = Feature.s;
         int temp1 = 522 + Feature.staticInt;
-        int temp10 = 523+ sds;
+        int temp10 = 52+ sds;
         double x = d;
         int y = 132;
         double z = x + y;
