@@ -13,7 +13,7 @@ public class Junit3Example extends TestCase {
     }
 
     public void testSort() {
-        Feature a = new Feature(26, 123);
+        Feature a = new Feature(22, 123);
         a.doNothing();
         assertEquals(3,3);
     }
