@@ -21,10 +21,4 @@ public class SimpleExampleTest {
         a.getTopFloor();
         assertEquals(1, 1);
     }
-
-    @Test
-    public void test_hihi2() {
-        Hihi a = new Hihi(10);
-        a.call(5);
-    }
 }
