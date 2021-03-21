@@ -27,7 +27,7 @@ public class Hihi {
     }
 
     public int getCurrentFloor() {
-        int a = 523 + 632;
+        int a = 523 + 63;
         return currentFloor;
     }
 
