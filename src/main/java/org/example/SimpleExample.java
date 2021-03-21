@@ -14,13 +14,13 @@ public class SimpleExample {
 
     public void doFoo(Integer x, String s, double d, boolean b) {
         if (x != null) {
-            double dd = x + d + 5;
+            double dd = x + d + 52;
         }
     }
 
     public int simple(int x) {
         if (x < 120) {
-            return 1;
+            return 12;
         }
         return 0;
     }
