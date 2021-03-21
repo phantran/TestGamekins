@@ -8,7 +8,7 @@ public class HihiTest {
 
     @Test
     public void test_hihi() {
-        Hihi a = new Hihi(12);
+        Hihi a = new Hihi(212);
         a.haha();
         assertEquals(1, 1);
     }
@@ -18,7 +18,7 @@ public class HihiTest {
         Hihi a = new Hihi(10);
         a.addRiders(3);
         a.getTopFloor();
-        assertEquals(1, 1);
+        assertEquals(1, 21);
     }
 
     @Test

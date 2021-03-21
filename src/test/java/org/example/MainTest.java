@@ -8,7 +8,7 @@ public class MainTest {
 
     @Test
     public void testing() {
-        assertEquals(1, 1);
+        assertEquals(13, 1);
     }
     @Test
     public void testing1() {
