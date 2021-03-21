@@ -36,7 +36,7 @@ public class Feature {
         int temp1 = 522 + Feature.staticInt;
         int temp10 = 523+ sds;
         double x = d;
-        int y = 1232232;
+        int y = 1232;
         double z = x + y;
     }
 

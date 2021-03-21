@@ -20,7 +20,7 @@ public class SimpleExample {
 
     public int simple(int x) {
         if (x < 120) {
-            return 12;
+            return 1;
         }
         return 0;
     }
