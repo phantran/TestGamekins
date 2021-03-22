@@ -8,8 +8,9 @@ public class MainTest {
 
     @Test
     public void testing() {
-        assertEquals(1, 1);
+        assertEquals(2, 2);
     }
+
     @Test
     public void testing1() {
         Main abc = new Main();
