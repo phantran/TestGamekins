@@ -17,7 +17,7 @@ public class Hihi {
     }
 
     public int getTopFloor() {
-        Feature a = new Feature(52,5);
+        Feature a = new Feature(53,53);
         Feature.s = "asd";
         int sds = a.valueInt;
         Feature.s = "abc";
