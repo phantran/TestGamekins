@@ -26,7 +26,7 @@ class Junit5Example {
     @Test
     void failingTest() {
 //        fail("a failing test");
-        Assertions.assertEquals(1,1);
+        Assertions.assertEquals(2,2);
     }
 
     @Test
