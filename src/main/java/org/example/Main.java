@@ -6,7 +6,7 @@ public class Main {
         System.out.println("Hello");
     }
 
-    public void haha() {
+    public int haha() {
         if (true) {
             int b = 2;
         }
@@ -16,6 +16,7 @@ public class Main {
         if (c == 1) {
             c = 5;
         }
+        return c;
     }
 
 
