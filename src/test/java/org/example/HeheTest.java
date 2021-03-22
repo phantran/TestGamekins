@@ -12,7 +12,7 @@ public class HeheTest {
         Hihi a = new Hihi(25);
         a.haha();
         assertEquals(1, 1);
-        assertEquals(a.getTopFloor(), 5);
+        assertEquals(a.getTopFloor(), 25);
     }
 
     @Test
