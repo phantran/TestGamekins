@@ -18,7 +18,7 @@ public class HeheTest {
     @Test
     public void test_hihi1() {
         Hihi a = new Hihi(22);
-        a.addRiders(5);
+        a.addRiders(3);
         a.getTopFloor();
         assertEquals(1, 1);
     }
