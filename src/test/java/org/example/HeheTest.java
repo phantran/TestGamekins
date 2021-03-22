@@ -9,7 +9,7 @@ public class HeheTest {
 
     @Test
     public void test_hihi() {
-        Hihi a = new Hihi(5);
+        Hihi a = new Hihi(25);
         a.haha();
         assertEquals(1, 1);
         assertEquals(a.getTopFloor(), 5);
