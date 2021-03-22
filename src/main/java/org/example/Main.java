@@ -14,7 +14,7 @@ public class Main {
         int c = 5;
         c = c + 51;
         if (c == 1) {
-            c = 25;
+            c = 5;
         }
     }
 
