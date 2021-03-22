@@ -36,7 +36,7 @@ public class Hihi {
     }
 
     public int getNumRiders() {
-        int a = 52 + 20;
+        int a = 52 + 10;
         a *= 5;
         a %= 8;
         return numRiders;
