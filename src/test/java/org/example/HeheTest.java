@@ -21,6 +21,8 @@ public class HeheTest {
         a.addRiders(32);
         a.getTopFloor();
         assertEquals(1, 1);
+        assertEquals(a.getTopFloor(), 22);
+
     }
 
     @Test
