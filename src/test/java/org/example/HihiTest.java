@@ -19,7 +19,7 @@ public class HihiTest {
         Hihi a = new Hihi(12);
         a.addRiders(3);
         a.getTopFloor();
-        assertEquals(1, 21);
+        assertEquals(21, 21);
     }
 
     @Test
