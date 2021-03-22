@@ -17,7 +17,7 @@ class Junit5Example {
 
     @Test
     void succeedingTest() {
-        Feature a = new Feature(235, 123);
+        Feature a = new Feature(235, 12);
         a.doNothing();
         a.foo(3);
         Assertions.assertEquals(a.foo(3),329);
