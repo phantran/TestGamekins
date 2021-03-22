@@ -17,10 +17,10 @@ class Junit5Example {
 
     @Test
     void succeedingTest() {
-        io.moco.dev.Feature a = new io.moco.dev.Feature(235, 123);
+        Feature a = new Feature(235, 123);
         a.doNothing();
         a.foo(3);
-        Assertions.assertEquals(1,1);
+        Assertions.assertEquals(a.foo(3),39);
     }
 
     @Test
@@ -38,10 +38,9 @@ class Junit5Example {
     @Test
     void abortedTest() {
         assumeTrue("abc".contains("abc"));
-        io.moco.dev.Feature a = new io.moco.dev.Feature(25, 123);
+        Feature a = new Feature(25, 123);
         a.doNothing();
-        a.foo(3);
-//        fail("test should have been aborted");
+        Assertions.assertEquals(a.foo(3),39);
     }
 
     @AfterEach

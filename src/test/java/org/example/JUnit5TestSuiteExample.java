@@ -8,6 +8,6 @@ import org.junit.runner.RunWith;
 
 @RunWith(JUnitPlatform.class)
 @SelectClasses( { AnstrengendTest.class, SimpleExampleTest.class } )
-@SelectPackages("io.moco.dev")
+@SelectPackages("org.example")
 public class JUnit5TestSuiteExample {
 }

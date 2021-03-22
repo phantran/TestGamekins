@@ -1,6 +1,6 @@
 package org.example;
 
-import io.moco.dev.Feature;
+import org.example.Feature;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
