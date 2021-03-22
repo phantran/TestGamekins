@@ -14,6 +14,7 @@ public class MainTest {
     @Test
     public void testing1() {
         Main abc = new Main();
-        assertEquals(56, abc.haha());
+        int temp = abc.haha();
+        assertEquals(56, temp);
     }
 }
