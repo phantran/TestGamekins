@@ -11,6 +11,7 @@ public class HihiTest {
         Hihi a = new Hihi(212);
         a.haha();
         assertEquals(1, 1);
+        assertEquals(new Hihi(212).getTopFloor(), 212);
     }
 
     @Test
