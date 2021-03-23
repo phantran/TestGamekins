@@ -16,7 +16,7 @@ public class Main {
         if (c == 1) {
             c = 5;
         }
-        return c--;
+        return c;
     }
 
 

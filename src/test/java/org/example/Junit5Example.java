@@ -19,7 +19,7 @@ class Junit5Example {
     void succeedingTest() {
         Feature a = new Feature(235, 12);
         a.doNothing();
-        a.foo(3);
+        a.foo(10);
         Assertions.assertEquals(a.foo(329),0);
     }
 
