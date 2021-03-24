@@ -5,6 +5,8 @@ import static org.junit.jupiter.api.Assumptions.assumeTrue;
 
 import org.junit.jupiter.api.*;
 
+import java.util.Optional;
+
 class Junit5Example {
 
     @BeforeAll
@@ -20,13 +22,13 @@ class Junit5Example {
         Feature a = new Feature(235, 12);
         a.doNothing();
         a.foo(10);
-        Assertions.assertEquals(a.foo(329),0);
+        Assertions.assertEquals(a.foo(329), 0);
     }
 
     @Test
     void failingTest() {
 //        fail("a failing test");
-        Assertions.assertEquals(2,2);
+        Assertions.assertEquals(2, 2);
     }
 
     @Test
@@ -40,7 +42,7 @@ class Junit5Example {
         assumeTrue("abc".contains("abc"));
         Feature a = new Feature(25, 123);
         a.doNothing();
-        Assertions.assertEquals(a.foo(3),39);
+        Assertions.assertEquals(a.foo(3), 39);
     }
 
     @AfterEach
