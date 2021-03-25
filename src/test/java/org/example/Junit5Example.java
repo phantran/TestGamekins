@@ -22,7 +22,7 @@ class Junit5Example {
         Feature a = new Feature(235, 12);
         a.doNothing();
         a.foo(10);
-        Assertions.assertEquals(a.foo(329), 0);
+        Assertions.assertEquals(a.foo(39), 3);
     }
 
     @Test
