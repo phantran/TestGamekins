@@ -16,7 +16,7 @@ public class TestNGExample {
     @Test
     public void LoginTest()
     {
-        Feature a = new Feature(5, 12);
+        Feature a = new Feature(5, 1);
         a.doNothing();
         a.foo(3);
         Assert.assertEquals(1, 1);
