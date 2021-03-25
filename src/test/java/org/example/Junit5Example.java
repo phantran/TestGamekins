@@ -40,7 +40,7 @@ class Junit5Example {
     @Test
     void abortedTest() {
         assumeTrue("abc".contains("abc"));
-        Feature a = new Feature(25, 123);
+        Feature a = new Feature(25, 1223);
         a.doNothing();
 //        Assertions.assertEquals(a.foo(3), 39);
     }
