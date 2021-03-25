@@ -22,7 +22,7 @@ class Junit5Example {
         Feature a = new Feature(23, 12);
         a.doNothing();
         a.foo(10);
-//        Assertions.assertEquals(a.foo(39), 3);
+        Assertions.assertEquals(a.foo(39), 3);
     }
 
     @Test
@@ -42,7 +42,7 @@ class Junit5Example {
         assumeTrue("abc".contains("abc"));
         Feature a = new Feature(25, 12);
         a.doNothing();
-//        Assertions.assertEquals(a.foo(3), 39);
+        Assertions.assertEquals(a.foo(3), 39);
     }
 
     @AfterEach
