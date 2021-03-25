@@ -25,7 +25,7 @@ public class TestNGExample {
     @Test
     public void LogoutTest()
     {
-        Assert.assertEquals(5, 5);
+        Assert.assertEquals(6, 6);
 
     }
 
